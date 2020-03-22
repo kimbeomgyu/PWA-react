@@ -1,0 +1,21 @@
+@import '_reset';
+@import '_variables';
+
+body {
+  background-color: $red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  font-size: 30px;
+}
+
+img {
+  width: 200px;
+}
+
+footer {
+  display: none;
+}
