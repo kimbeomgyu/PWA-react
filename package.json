@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "gulp dev",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "gulp deploy"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -31,5 +32,8 @@
   },
   "browserslist": [
     "last 2 version"
-  ]
+  ],
+  "dependencies": {
+    "gulp-gh-pages": "^0.5.4"
+  }
 }
