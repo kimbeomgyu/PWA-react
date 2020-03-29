@@ -1,21 +1,32 @@
 import React, { useState, useCallback } from 'react';
-import { MuiThemeProvider, getMuiTheme } from 'material-ui/styles';
-import { AppBar, Drawer, MenuItem } from 'material-ui';
+import { Toolbar, IconButton, Drawer, AppBar, CssBaseline, MenuItem } from '@material-ui/core';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import MenuIcon from '@material-ui/icons/Menu';
+import { Link } from 'react-router-dom';
 
-const AppShell = props => {
+const AppShell = ({ children }) => {
   const [open, setOpen] = useState(false);
 
   const handleOpenToggle = useCallback(() => setOpen(open => !open), []);
-  const handleRequestChange = useCallback(open => setOpen(open), []);
+  const handleLinkClick = useCallback(() => setOpen(false), []);
 
   return (
-    <MuiThemeProvider>
-      <AppBar onLeftIconButtonClick={handleOpenToggle} />
-      <Drawer open={open} docked={false} onRequestChange={handleRequestChange}>
-        <MenuItem primaryText={'Home'} />
+    <MuiThemeProvider theme={createMuiTheme()}>
+      <CssBaseline />
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton edge="start" color="inherit" aria-label="menu" onClick={handleOpenToggle}>
+            <MenuIcon />
+          </IconButton>
+        </Toolbar>
+      </AppBar>
+      <Drawer open={open} onClose={handleLinkClick}>
+        <MenuItem children={<Link to="/" children="Home" />} onClick={handleLinkClick} />
+        <MenuItem children={<Link to="/users" children="Users" />} onClick={handleLinkClick} />
+        <MenuItem children={<Link to="/notification" children="Notification" />} onClick={handleLinkClick} />
       </Drawer>
       <div>
-        <div id="content">{React.cloneElement(props.children)}</div>
+        <div id="content">{React.cloneElement(children)}</div>
       </div>
     </MuiThemeProvider>
   );
