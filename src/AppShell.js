@@ -20,7 +20,11 @@ const AppShell = ({ children }) => {
           </IconButton>
         </Toolbar>
       </AppBar>
-      <Drawer open={open} onClose={handleLinkClick}></Drawer>
+      <Drawer open={open} onClose={handleLinkClick}>
+        <MenuItem children={<Link to="/" children="Home" />} onClick={handleLinkClick} />
+        <MenuItem children={<Link to="/users" children="Users" />} onClick={handleLinkClick} />
+        <MenuItem children={<Link to="/notification" children="Notification" />} onClick={handleLinkClick} />
+      </Drawer>
       <div>
         <div id="content">{React.cloneElement(children)}</div>
       </div>
