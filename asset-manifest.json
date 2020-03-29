@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/PWA_react/static/css/main.a689ad72.chunk.css",
-    "main.js": "/PWA_react/static/js/main.ab576cf6.chunk.js",
-    "main.js.map": "/PWA_react/static/js/main.ab576cf6.chunk.js.map",
-    "runtime-main.js": "/PWA_react/static/js/runtime-main.1f812b79.js",
-    "runtime-main.js.map": "/PWA_react/static/js/runtime-main.1f812b79.js.map",
-    "static/js/2.ff7c79d9.chunk.js": "/PWA_react/static/js/2.ff7c79d9.chunk.js",
-    "static/js/2.ff7c79d9.chunk.js.map": "/PWA_react/static/js/2.ff7c79d9.chunk.js.map",
-    "index.html": "/PWA_react/index.html",
-    "precache-manifest.a34ab2147df016812cf9d8177056e81c.js": "/PWA_react/precache-manifest.a34ab2147df016812cf9d8177056e81c.js",
-    "service-worker.js": "/PWA_react/service-worker.js",
-    "static/css/main.a689ad72.chunk.css.map": "/PWA_react/static/css/main.a689ad72.chunk.css.map",
-    "static/js/2.ff7c79d9.chunk.js.LICENSE.txt": "/PWA_react/static/js/2.ff7c79d9.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/PWA_react/static/media/logo.5d5d9eef.svg"
+    "main.css": "/PWA-react/static/css/main.a689ad72.chunk.css",
+    "main.js": "/PWA-react/static/js/main.7ec017e5.chunk.js",
+    "main.js.map": "/PWA-react/static/js/main.7ec017e5.chunk.js.map",
+    "runtime-main.js": "/PWA-react/static/js/runtime-main.4221499a.js",
+    "runtime-main.js.map": "/PWA-react/static/js/runtime-main.4221499a.js.map",
+    "static/js/2.ff7c79d9.chunk.js": "/PWA-react/static/js/2.ff7c79d9.chunk.js",
+    "static/js/2.ff7c79d9.chunk.js.map": "/PWA-react/static/js/2.ff7c79d9.chunk.js.map",
+    "index.html": "/PWA-react/index.html",
+    "precache-manifest.3af3112e7b69ce6e7279cb16431557c4.js": "/PWA-react/precache-manifest.3af3112e7b69ce6e7279cb16431557c4.js",
+    "service-worker.js": "/PWA-react/service-worker.js",
+    "static/css/main.a689ad72.chunk.css.map": "/PWA-react/static/css/main.a689ad72.chunk.css.map",
+    "static/js/2.ff7c79d9.chunk.js.LICENSE.txt": "/PWA-react/static/js/2.ff7c79d9.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/PWA-react/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f812b79.js",
+    "static/js/runtime-main.4221499a.js",
     "static/js/2.ff7c79d9.chunk.js",
     "static/css/main.a689ad72.chunk.css",
-    "static/js/main.ab576cf6.chunk.js"
+    "static/js/main.7ec017e5.chunk.js"
   ]
 }
