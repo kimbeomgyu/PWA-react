@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/PWA-react/static/css/main.a689ad72.chunk.css",
-    "main.js": "/PWA-react/static/js/main.7ec017e5.chunk.js",
-    "main.js.map": "/PWA-react/static/js/main.7ec017e5.chunk.js.map",
+    "main.js": "/PWA-react/static/js/main.47c41aa5.chunk.js",
+    "main.js.map": "/PWA-react/static/js/main.47c41aa5.chunk.js.map",
     "runtime-main.js": "/PWA-react/static/js/runtime-main.4221499a.js",
     "runtime-main.js.map": "/PWA-react/static/js/runtime-main.4221499a.js.map",
-    "static/js/2.ff7c79d9.chunk.js": "/PWA-react/static/js/2.ff7c79d9.chunk.js",
-    "static/js/2.ff7c79d9.chunk.js.map": "/PWA-react/static/js/2.ff7c79d9.chunk.js.map",
+    "static/js/2.97b85dc6.chunk.js": "/PWA-react/static/js/2.97b85dc6.chunk.js",
+    "static/js/2.97b85dc6.chunk.js.map": "/PWA-react/static/js/2.97b85dc6.chunk.js.map",
     "index.html": "/PWA-react/index.html",
-    "precache-manifest.3af3112e7b69ce6e7279cb16431557c4.js": "/PWA-react/precache-manifest.3af3112e7b69ce6e7279cb16431557c4.js",
+    "precache-manifest.72b45e4d08f5924aa075493e3be7d484.js": "/PWA-react/precache-manifest.72b45e4d08f5924aa075493e3be7d484.js",
     "service-worker.js": "/PWA-react/service-worker.js",
     "static/css/main.a689ad72.chunk.css.map": "/PWA-react/static/css/main.a689ad72.chunk.css.map",
-    "static/js/2.ff7c79d9.chunk.js.LICENSE.txt": "/PWA-react/static/js/2.ff7c79d9.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/PWA-react/static/media/logo.5d5d9eef.svg"
+    "static/js/2.97b85dc6.chunk.js.LICENSE.txt": "/PWA-react/static/js/2.97b85dc6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4221499a.js",
-    "static/js/2.ff7c79d9.chunk.js",
+    "static/js/2.97b85dc6.chunk.js",
     "static/css/main.a689ad72.chunk.css",
-    "static/js/main.7ec017e5.chunk.js"
+    "static/js/main.47c41aa5.chunk.js"
   ]
 }
