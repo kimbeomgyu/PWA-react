@@ -2,9 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
 import AppShell from './AppShell';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <AppShell className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -16,6 +18,7 @@ function App() {
         </a>
       </header>
     </AppShell>
+    </Router>
   );
 }
 
